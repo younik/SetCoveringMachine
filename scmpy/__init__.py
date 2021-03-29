@@ -1,3 +1,3 @@
-from SCM import SCM
+from .SCM import SCM
 
 __all__ = ['SCM']
