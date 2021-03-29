@@ -34,3 +34,8 @@ You can install the package using pip:
 
     # print accuracy
     print(scm.score(X_test, y_test))
+    
+    
+## Plots
+
+![Plot](/plot.png)
