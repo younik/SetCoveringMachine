@@ -1,11 +1,9 @@
 # Set Covering Machine
 
-The Set Covering Machine is a learning algorithm for binary classification. The classifier is a solution of the set cover problem minimizing the empirical risk.
+The Set Covering Machine is a learning algorithm for binary classification.
 
 This implementation follow the idea presented in the original paper: 
 ![Marchand, Mario & Shawe-Taylor, John & Brodley, E. & Danyluk, Andrea. (2003). The Set Covering Machine. Journal of Machine Learning Research. 3. 10.1162/jmlr.2003.3.4-5.723. ](https://www.jmlr.org/papers/volume3/marchand02a/marchand02a.pdf)
-
-So the *sets* are *balls* generated from the training set and the set cover problem is solved using greedy algorithm (Chvátal, 1979), accordingly to the paper. Sets can be combined in conjunction or disjunction and this can be specified using the parameter *machine_type*.
 
 ## How to install
 
